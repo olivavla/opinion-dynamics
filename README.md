@@ -22,7 +22,7 @@ Agents' opinions in a model with bounded confidence with random jumps are changi
 
 $$x_i(t+1) = \begin{cases}
 \xi_i(t)\sim U(\frac{1}{2}, 1), &\text{if } \eta_i(t)=1\\
-\dfrac{1}{|\mathcal{N}_i(t)|}\sum\limits_{j\in\mathcal{N}_i(t)}x_j(t) , &\text{if } \eta_i(t)=0
+\dfrac{1}{|\mathcal{N}_i(t)|}\sum\limits\_{j\in\mathcal{N}_i(t)}x_j(t) , &\text{if } \eta_i(t)=0
 \end{cases}$$
 
 where $\eta_i(t)$ are independent random variables with Bernoulli distribution
@@ -36,7 +36,7 @@ One possible interpretation of random jumps modification is that individuals are
 
 In terms of model with bounded confidence with additive noise, the opinion dynamic is represented as follows:
 
-$$x_i(t+1) = \frac{\alpha}{|\mathcal{N}_i(t)|}\sum\limits_{j\in\mathcal{N}_i(t)} x_j(t)+(1-\alpha)\xi_i(t)$$
+$$x_i(t+1) = \frac{\alpha}{|\mathcal{N}_i(t)|}\sum\limits\_{j\in\mathcal{N}_i(t)} x_j(t)+(1-\alpha)\xi_i(t)$$
 
 where $\alpha\in (0, 1)$ is the noise parameter,
 
