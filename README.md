@@ -1,6 +1,6 @@
-## Brief ntroduction to opinion dynamics mathematical model
+# Brief ntroduction to opinion dynamics mathematical model
 
-# Opinion dynamics mathematical model with bounded confidence in noisy environment
+## Opinion dynamics mathematical model with bounded confidence in noisy environment
 
 In a community, opinions evolve due to affinities and conflicts between mutually interacting individuals. These interactions lead to collective states, where either a majority of individuals adopt a similar opinion (consensus) or a number of opinion groups (clusters) arise. In many situations, the dynamics of this complex collective behaviour goes beyond specific individual attributes and seems to be well characterised by quantities like statistical distributions and averages. In the context of continuous opinion dynamics a model introduced by Hegselmann and Krause is a representation of a model with bounded confidence. In this model individuals trust only their neighbours and over the time change opinions according to an arithmetic mean formula but only from a set of neighbours. Let $n$ be a number of agents in a group under consideration.
 
@@ -48,6 +48,6 @@ Here, external influence added to a Hegselmann-Krause model with a coefficient c
 
 In both models, with random jumps and with additive noise, the vector of opinions at time $t$ is a stochastic process with a discrete time and a continuous set of states. In finite time these processes will reach an absorbing set.
 
-# Repository
+## Repository
 
 This repository includes simulation models of agent interaction algorithms above. Also it consists of the asymptotic analysis of these models.
