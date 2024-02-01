@@ -6,7 +6,6 @@ In a community, opinions evolve due to affinities and conflicts between mutually
 
 $$x_i(t+1)=\frac{1}{|\mathcal{N}_i(t)|}\sum\limits_{j\in\mathcal{N}_i(t)}x_j(t),$$
 
-
 where $x_i(t)$ is the opinion value of agent $i$ at time $t$,
 
 $\mathcal{N}_i(t)$ is the neighbour set of agent $i$ at time $t$:
@@ -14,7 +13,6 @@ $\mathcal{N}_i(t)$ is the neighbour set of agent $i$ at time $t$:
 $$\mathcal{N}_i(t)=\{j:|x_j(t)-x_i(t)|\leq\epsilon\}, \epsilon\in (0, 1],$$
 
 where $\epsilon$ is the confidence threshold (interaction radius).
-
 
 After some transient evolution, this leads to final states in which either full consensus is reached or the population splits in a finite number of clusters such that all individuals in one cluster share the same opinion. However, there is a belief that existing method is not efficient enough to describe opinion dynamics close to real life; such dynamics misses the fact that the behavior of an individual in a society does not depend only on the influence of people with similar opinions. There are many additional
 factors, both personal and external, which also cause opinion changes. These factors may introduce some degree of discrepancy with reality and should be modelled. Therefore, modifications of the Hegselmann-Krause model were proposed in which agents are allowed to sharply change their opinion with some probability (random jumps) and to alter their opinions because of external influence (additional noise). 
@@ -32,7 +30,6 @@ $$\eta_i(t)= \begin{cases}
     1, \text{with probability } \mu\\
     0, \text{with probability } 1-\mu
 \end{cases}$$
-
 
 One possible interpretation of random jumps modification is that individuals are likely to listen to the opinion of the leader. Thus, agents change their opinions dramatically. The interval of values $(\frac{1}{2}, 1)$ is interpreted as a positive decision, therefore, it is in the interests of the observer to get as many agents with values greater than $\frac{1}{2}$ as possible. It will be studied how quickly all individuals' opinions will reach the absorbing set, what will be the probability distribution for the vector of opinions, with the help of which the assessment of the impact of external influence will be received.
 
