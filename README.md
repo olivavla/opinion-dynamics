@@ -1,4 +1,4 @@
-# Brief ntroduction to opinion dynamics mathematical model
+# Brief introduction to opinion dynamics
 
 ## Opinion dynamics mathematical model with bounded confidence in noisy environment
 
